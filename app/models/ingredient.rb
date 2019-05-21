@@ -3,11 +3,11 @@ class Ingredient < ApplicationRecord
 
   validates :name, presence: true, uniqueness: true
 
-  before_destroy :allow_destroy
+  # before_destroy :allow_destroy
 
-  private
+  # private
 
-  def allow_destroy
-    doses.empty?
-  end
+  # def allow_destroy
+  #   doses.empty?
+  # end
 end
