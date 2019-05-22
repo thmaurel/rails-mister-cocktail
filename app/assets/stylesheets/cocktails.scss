@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .card-category {
+  position: relative;
+  margin-bottom: 30px;
   background-size: cover;
   background-position: center;
   height: 180px;
@@ -17,4 +19,43 @@
   a {
     color:white;
   }
+}
+
+.card-category-show {
+  position: relative;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  h1 {
+    font-size: 48px;
+  }
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  a {
+    color:white;
+  }
+}
+
+.card-link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+.new-cocktail-card {
+  border: 2px solid white;
 }
